@@ -25,7 +25,7 @@ from helper import Databroker
 logger = logging.getLogger(__name__)
 logger.setLevel(os.getenv("LOG_LEVEL", "WARN"))
 
-DATABROKER_ADDRESS = os.environ.get("DATABROKER_ADDRESS", "127.0.0.1:55555")
+DATABROKER_ADDRESS = os.environ.get("DATABROKER_ADDRESS", "localhost:55556")
 
 
 @pytest.fixture

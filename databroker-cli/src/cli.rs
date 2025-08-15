@@ -37,7 +37,7 @@ impl fmt::Display for ParseError {
 #[clap(author, version, about, long_about = None)]
 pub struct Cli {
     /// Server to connect to
-    #[clap(long, display_order = 1, default_value = "http://127.0.0.1:55555")]
+    #[clap(long, display_order = 1, default_value = "http://127.0.0.1:55556")]
     server: String,
 
     // #[clap(short, long)]

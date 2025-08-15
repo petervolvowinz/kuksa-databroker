@@ -1,4 +1,4 @@
-![Rust](https://img.shields.io/badge/rust-000000.svg?style=for-the-badge&logo=rust&logoColor=white)![Docker](https://img.shields.io/badge/docker-1D63ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+carg![Rust](https://img.shields.io/badge/rust-000000.svg?style=for-the-badge&logo=rust&logoColor=white)![Docker](https://img.shields.io/badge/docker-1D63ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
@@ -43,6 +43,7 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#starting-databroker">Starting Databroker</a></li>
         <li><a href="#reading-and-writing-vss-data-using-the-cli">Reading and writing VSS data using the CLI</a></li>
+      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#building">Building</a></li>

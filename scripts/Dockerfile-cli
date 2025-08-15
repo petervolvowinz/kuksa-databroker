@@ -49,8 +49,8 @@ FROM target-$TARGETARCH as target
 ARG TARGETARCH
 
 COPY ./dist/$TARGETARCH/databroker-cli /app/databroker-cli
-COPY ./dist/$TARGETARCH/sbom.json /app/sbom.json
-COPY ./dist/$TARGETARCH/thirdparty-licenses/ /app/thirdparty-licenses
+#COPY ./dist/$TARGETARCH/sbom.json /app/sbom.json
+#COPY ./dist/$TARGETARCH/thirdparty-licenses/ /app/thirdparty-licenses
 
 # Copy terminfo database
 COPY --from=terminfo-donor /etc/terminfo /etc/terminfo

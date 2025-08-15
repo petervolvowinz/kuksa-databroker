@@ -43,7 +43,7 @@ Here is how you start it:
 ```
 docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-python-sdk/kuksa-client:main
 ```
-
+quit
 Here is how you can use it:
 
 ```

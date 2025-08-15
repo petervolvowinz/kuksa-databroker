@@ -46,15 +46,15 @@ ARG TARGETARCH
 # Before running this file thirdparty files must have been created
 # by build-databroker.sh or corresponding command in buildaction
 COPY ./dist/$TARGETARCH/databroker /app/databroker
-COPY ./dist/$TARGETARCH/sbom.json /app/sbom.json
-COPY ./dist/$TARGETARCH/thirdparty-licenses/ /app/thirdparty-licenses
+#COPY ./dist/$TARGETARCH/sbom.json /app/sbom.json
+#COPY ./dist/$TARGETARCH/thirdparty-licenses/ /app/thirdparty-licenses
 
 
 COPY ./data/vss-core/vss_release_3.1.1.json vss_release_3.1.1.json
 COPY ./data/vss-core/vss_release_4.0.json vss_release_4.0.json
 
 ENV KUKSA_DATABROKER_ADDR=0.0.0.0
-ENV KUKSA_DATABROKER_PORT=55555
+ENV KUKSA_DATABROKER_PORT=55556
 ENV KUKSA_DATABROKER_METADATA_FILE=vss_release_4.0.json
 
 EXPOSE $KUKSA_DATABROKER_PORT
